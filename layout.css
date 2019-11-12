@@ -1,0 +1,45 @@
+/* layout.css */
+
+body{ margin:0; }
+
+header, footer {
+    background-color: #FFA600;
+    padding: 2em;
+}
+
+
+main {
+    background-color: #14C6CC;
+    padding:10em;
+    
+    box-sizing: border-box;
+    width: 70%;
+    float:left;
+}
+
+aside {
+    background-color: #998B3D;
+    padding:4em;
+    
+    box-sizing: border-box;
+    width: 30%;
+    float:right;
+}
+
+nav {
+    background-color: #40C6FF;
+    padding: 1em;
+}
+
+footer { clear: both;}
+
+
+/* A primeira Media Query */
+@media (max-width: 700px) {
+
+    main, aside {
+        float: none;
+        width: auto;
+    }
+    
+}
