@@ -1,14 +1,32 @@
 /* layout.css */
 
-body{ margin:0; }
+body{ 
+    margin:0;
+    font-family: 'McLaren', cursive; 
+    background-color: rgb(61, 153, 110);
+}
+header{
+    text-align: center;
+}
+a{
+    margin: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration:transparent;
+}
 
 header, footer {
-    background-color: #FFA600;
+    background-color:teal;
     padding: 2em;
+}
+
+h1{
+    font-size: 50px;
 }
 
 
 main {
+    background-image: url("computador.png");
     background-color: #14C6CC;
     padding:10em;
     
@@ -16,14 +34,25 @@ main {
     width: 70%;
     float:left;
 }
+h2{
+    border: solid;
+    background-color: #0e80a7;
+    padding: auto;
+}
 
 aside {
-    background-color: #998B3D;
+    background-color: rgb(61, 153, 110);
     padding:4em;
     
     box-sizing: border-box;
     width: 30%;
     float:right;
+    
+}
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
 
 nav {
@@ -31,7 +60,10 @@ nav {
     padding: 1em;
 }
 
-footer { clear: both;}
+footer { 
+    clear: both;
+    text-align: center;
+}
 
 
 /* A primeira Media Query */
