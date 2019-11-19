@@ -4,6 +4,10 @@ body{
     margin:0;
     font-family: 'McLaren', cursive; 
     background-color: rgb(61, 153, 110);
+    background-image: url("computador.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 header{
     text-align: center;
@@ -26,14 +30,15 @@ h1{
 
 
 main {
-    background-image: url("computador.png");
-    background-color: #14C6CC;
+   
+    /*background-color: #14C6CC;*/
     padding:10em;
     
     box-sizing: border-box;
     width: 70%;
     float:left;
 }
+
 h2{
     border: solid;
     background-color: #0e80a7;
@@ -74,4 +79,24 @@ footer {
         width: auto;
     }
     
+}
+
+.div{
+    widows: 560px;
+    height: 315px;
+}
+
+.videos{
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.videos iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
